@@ -1,0 +1,106 @@
+/**index.wxss**/
+.index {
+    background-color: ghostwhite;
+
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.head {
+  width: 375px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 20px;
+  
+}
+
+.desc {
+  margin-top: 5px;
+  color: darkgray;
+}
+
+.body{
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+
+
+.widgets__item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.widgets__info{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+.widgets__info_show{
+    opacity: .4;
+    background-color: burlywood;
+    
+}
+.widgets__info-name{
+    flex: 1;
+}
+.widgets__info-img{
+    width: 30px;
+    height: 30px;
+}
+
+.widgets__list{
+    display: none;
+}
+.widgets__list_show{
+    display: block;
+    
+}
+
+.widget{
+    position: relative;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.widget__arrow{
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    width: 8px;
+    height: 16px;
+}
+.widget__line{
+    content: " ";
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    right: 20px;
+    height: 1rpx;
+    background-color: #DFDFDF;
+}
