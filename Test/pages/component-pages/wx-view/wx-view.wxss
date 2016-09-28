@@ -1,7 +1,7 @@
 .wx-view {
 
   display: flex;
-  width: 375px;
+  
   height: 500px; 
   flex-direction: column;
 }
@@ -10,13 +10,52 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 20px;
-  width: 355px;
+  
   color: black;
 }
 
 .desc {
   padding-left: 10px;
   padding-right: 10px;
-  width: 355px;
+  padding-top: 5px;
+  
   color: lightgray;
+}
+
+.section {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.section-title {
+  height: 15px;
+}
+
+.section-view {
+  display: flex;
+}
+
+.section-item1 {
+  width: 50px;
+  height: 50px;
+  background-color: turquoise;
+}
+
+.section-item2 {
+  width: 50px;
+  height: 50px;
+  background-color: crimson;
+}
+
+.section-item3 {
+  width: 50px;
+  height: 50px;
+  background-color: bisque;
+}
+
+.this {
+  height: 15px;
+  color: red;
 }

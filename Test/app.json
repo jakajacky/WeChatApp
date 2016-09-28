@@ -1,7 +1,11 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/component-pages/wx-view/wx-view",
+    "pages/component-pages/wx-scroll-view/wx-scroll-view",
+    "pages/component-pages/wx-swiper/wx-swiper",
+    "pages/component-pages/wx-text/wx-text"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,16 +14,31 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
-    "color": "#dddddd",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
-    "backgroundColor": "green",
-    "list": [{
-      "pagePath": "page/index/index",
-      "iconPath": "image/wechat.png",
-      "selectedIconPath": "image/wechatHL.png",
-      "text": "组件"
-    }]
-  }
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "组件",
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/index/resources/kind/media.png",
+        "selectedIconPath": "pages/index/resources/kind/media.png"
+      },
+      {
+        "text": "接口",
+        "pagePath": "pages/logs/logs",
+        "iconPath": "pages/index/resources/kind/map.png",
+        "selectedIconPath": "pages/index/resources/kind/map.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 
 }

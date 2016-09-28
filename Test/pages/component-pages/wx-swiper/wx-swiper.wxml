@@ -1,0 +1,15 @@
+<view class="wx-swiper">
+    <!--swiper轮播-->
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000" bindchange="swiperchange">
+        <view class="title" style="flex-direction: row; justify-content: center;">
+            <text class="title-text" style="color: red;">{{text}}</text>
+        </view>
+        <block wx:for="{{lists}}" wx:for-index="index">
+            <swiper-item>
+                <image  src="{{item.images.large}}" class="slide-image" mode="aspectFill"/>
+                <button class="btn" wx:if="{{index == lists.length - 1}}">立即体验</button>
+            </swiper-item>
+        </block>
+    </swiper>
+
+</view>

@@ -1,0 +1,20 @@
+.wx-text {
+    display: flex;
+
+}
+.text {
+    width: 100%;
+    
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.btn {
+    margin-top: 50px;
+    height: 40px;
+}
+
+.btn1 {
+    margin-top: 10px;
+    height: 40px;
+}

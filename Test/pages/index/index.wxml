@@ -24,12 +24,12 @@
                         <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="component-pages/wx-scroll-view/wx-scroll-view" class="widget">
+                    <navigator url="../component-pages/wx-scroll-view/wx-scroll-view" class="widget">
                         <text class="widget__name">scroll-view</text>
                         <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                         <view class="widget__line"></view>
                     </navigator>
-                    <navigator url="component-pages/wx-swiper/wx-swiper" class="widget">
+                    <navigator url="../component-pages/wx-swiper/wx-swiper" class="widget">
                         <text class="widget__name">swiper</text>
                         <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                     </navigator>
@@ -41,7 +41,7 @@
                     <image class="widgets__info-img" src="resources/kind/content.png" background-size="cover" />
                 </view>
                 <view class="widgets__list {{contentShow ? 'widgets__list_show' : ''}}">
-                    <navigator url="component-pages/wx-text/wx-text" class="widget">
+                    <navigator url="../component-pages/wx-text/wx-text" class="widget">
                         <text class="widget__name">text</text>
                         <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                         <view class="widget__line"></view>

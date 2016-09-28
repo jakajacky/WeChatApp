@@ -1,0 +1,13 @@
+<view class="wx-scroll">
+    
+    <view class="title1">vertical scroll</view>
+    <scroll-view scroll-y="true" style="height: 150px;" >
+        <image src="https://img1.doubanio.com\/img\/celebrity\/large\/36798.jpg" mode="aspectFill" style="height:600px"/>
+    </scroll-view>
+
+    <view class="title2">horizontal scroll</view>
+    <scroll-view scroll-x="true" style="width: 50%; height: 200px;">
+        <image src="https://img1.doubanio.com\/img\/celebrity\/large\/36798.jpg" mode="center" style="width:150%"/>
+    </scroll-view>
+
+</view>

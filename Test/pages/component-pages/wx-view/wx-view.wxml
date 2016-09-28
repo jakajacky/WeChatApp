@@ -1,4 +1,89 @@
 <view class="wx-view">
-<view class="title">view普通视图</view>
-<view class="desc">测试视图的flex、position、width、margin等基本属性</view>
+    <view class="title">view普通视图</view>
+    <view class="desc">测试视图的dispaly:flex基本属性+{{text}}</view>
+
+    <view class="contents">
+        <view class="section">
+        <!-- {{}} 用于接收从.js传来的值，然后这里是用法1，用于改变class，进而改变布局；上面是用法2：用于传值并显示到布局上-->
+            <view class="section-title {{text}}">flex-direction: row</view>
+            <view class="section-view" style="flex-direction: row;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+
+        <view class="section">
+            <view class="section-title">flex-direction: column</view>
+            <view class="section-view" style="flex-direction: column;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+
+        <view class="section">
+            <view class="section-title">justify-content: flex-start</view>
+            <view class="section-view" style="flex-direction: row; justify-content: flex-start;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+
+        <view class="section">
+            <view class="section-title">justify-content: flex-end</view>
+            <view class="section-view" style="flex-direction: row; justify-content: flex-end;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+
+        <view class="section">
+            <view class="section-title">justify-content: center</view>
+            <view class="section-view" style="flex-direction: row; justify-content: center;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+        
+        <view class="section">
+            <view class="section-title">justify-content: space-between</view>
+            <view class="section-view" style="flex-direction: row; justify-content: space-between;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+        
+        <view class="section">
+            <view class="section-title">justify-content: space-around</view>
+            <view class="section-view" style="flex-direction: row; justify-content: space-around;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+
+        <view class="section">
+            <view class="section-title">align-items: flex-end</view>
+            <view class="section-view" style="flex-direction: row; justify-content: space-around; align-items: flex-end;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+
+        <view class="section">
+            <view class="section-title">align-items: center</view>
+            <view class="section-view" style="flex-direction: row; justify-content: flex-end; align-items: center;">
+                <view class="section-item1">1</view>
+                <view class="section-item2">2</view>
+                <view class="section-item3">3</view>
+            </view>
+        </view>
+
+    </view>
 </view>

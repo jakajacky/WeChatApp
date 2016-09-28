@@ -1,0 +1,5 @@
+<view class="wx-text" style="flex-direction: column;">
+    <text class="text">{{text}}</text>
+    <button class="btn" bindtap="add">Add button</button>
+    <button class="btn1" bindtap="remove">Remove button</button>
+</view>

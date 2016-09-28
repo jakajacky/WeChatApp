@@ -28,6 +28,11 @@ Page({
     })
   },
 
+  onShow:function(){
+    // 页面显示
+    console.log('页面显示')
+  },
+
   widgetsToggle : function (e) {
       console.log("toggle?????")
       var id = e.currentTarget.id, data = {};
@@ -37,6 +42,7 @@ Page({
       console.log(id)
       data[id + 'Show'] = !this.data[id + 'Show'];
       data[id + 'Back'] = !this.data[id + 'Back'];
+      data[id] = id;
       this.setData(data)
   }
 

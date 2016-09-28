@@ -1,0 +1,14 @@
+.wx-scroll {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:  10px;
+
+}
+
+scroll-view {
+    background-color: red;
+}
+
+.title2 {
+    padding-top: 10px;
+}
