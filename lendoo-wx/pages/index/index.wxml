@@ -1,0 +1,2 @@
+<button bindtap="naviToStepper">WXStepper 实例</button>
+<button bindtap="naviToCheckbox">LXCheckboxGroup 实例</button>
